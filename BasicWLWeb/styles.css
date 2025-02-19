@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Squada+One&display=swap');
+
+html, body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Squada One', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.whitelist-app {
+    color: #000;
+    padding: 48px 62px 0;
+    box-sizing: border-box;
+}
+
+.app-background {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 30px 80px 63px;
+    box-sizing: border-box;
+}
+
+.app-container {
+    display: flex;
+    width: 100%;
+    max-width: 567px;
+    flex-direction: column;
+}
+
+.app-title {
+    color: #fff;
+    font-family: 'Squada One', cursive;
+    font-size: 64px;
+    text-align: center;
+}
+
+.form-section {
+    background-color: #400909;
+    border-radius: 20px;
+    padding: 21px 29px;
+}
+
+.form-row {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.input-label {
+    display: block;
+    color: #fff;
+}
+
+.input-field,
+.steam-field,
+.text-area-field {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d9d9d9;
+}
+
+.steam-input {
+    color: #d9d9d9;
+}
+
+.text-area-section {
+    background-color: #400909;
+    border-radius: 10px;
+    padding: 8px 29px;
+}
+
+.text-area-label {
+    display: block;
+    color: #fff;
+}
+
+.text-area-field {
+    height: 91px;
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #400909;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 36px;
+    padding: 4px;
+    width: 140px;
+    align-self: center;
+}
+
+.submit-text {
+    display: block;
+    background-color: #d9d9d9;
+    font-family: 'Squada One', sans-serif;
+    border-radius: 15px;
+    color: #000;
+    padding: 1px 14px 2px;
+}
+
+@media (max-width: 991px) {
+    .whitelist-app {
+        padding: 48px 20px 0;
+    }
+
+    .app-background {
+        padding: 25px 20px 63px;
+    }
+
+    .app-title {
+        font-size: 40px;
+    }
+
+    .form-section,
+    .text-area-section {
+        padding: 17px 20px;
+    }
+
+    .submit-button {
+        width: 100%;
+        max-width: 140px;
+    }
+}
